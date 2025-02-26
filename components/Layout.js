@@ -32,11 +32,11 @@ export default function Layout({ children }) {
 
     darkQuery.onchange = (e) => {
       if (e.matches) {
-        document.documentElement.classList.add('dark');
+        document.documentElement.classList.add('light');
         localStorage.setItem('theme', 'dark');
       } else {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme', 'light');
+        document.documentElement.classList.remove('light');
+        localStorage.setItem('theme', 'dark');
       }
     };
   };
