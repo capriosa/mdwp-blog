@@ -99,7 +99,7 @@ module.exports = {
     extend: {
       borderRadius: ['first', 'last'],
       borderWidth: ['last', 'hovered-sibling'],
-      typography: ['light'],
+      typography: ['dark'],
     },
   },
   plugins: [hoveredSiblingPlugin, pluginTypography, themesConfig],
