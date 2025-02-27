@@ -7,10 +7,10 @@ export const getGlobalData = () => {
     : 'Blog about No-Code and AI';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : `All rights reserved.
-       Meinolf Droste
-       Tel.:    02331 62 85 27 3
-       Mobil: 0151 241 262 32
+    : `All rights reserved./n
+       Meinolf Droste/n
+       Tel.:    02331 62 85 27 3/n
+       Mobil: 0151 241 262 32/n
       `;
 
   return {
