@@ -46,7 +46,9 @@ export default function Index({ posts, globalData }) {
           ))}
         </ul>
       </main>
+      <p>
       <Footer copyrightText={globalData.footerText} />
+      </p>      
       <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
